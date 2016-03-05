@@ -65,4 +65,16 @@ difference(){
     translate([6.2,-0.4,-2]){
         cylinder(r=1,h=4,$fn=25);
     }
+    
+    // round finger guards
+    translate([-2,-1,0]){
+        resize([0,7,4.5]){
+            rotate([0,90,0]){
+                difference(){
+                    cylinder(r=1,h=10,$fn=25);
+                    cylinder(r=.50,h=10,$fn=50);
+                }
+            }
+        }
+    }
 }
