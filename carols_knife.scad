@@ -4,7 +4,7 @@ difference(){
         translate([-0.9,-0.4,0]){
             resize([0,2.6,0]){
                 rotate([0,90,0]){
-                    cylinder(r=1,h=7,$fn=25);
+                    cylinder(r=1,h=6.35,$fn=25);
                 }
             }
         }
@@ -64,7 +64,7 @@ difference(){
     
     // blade cut-out
     translate([5.6,-3,-2]){
-        #cube([5,4,4]);
+        cube([5,4,4]);
     }
     translate([6.2,-0.2,-2]){
         cylinder(r=1,h=4,$fn=25);
