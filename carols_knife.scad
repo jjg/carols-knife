@@ -85,3 +85,8 @@ difference(){
     }
     */
 }
+
+// "blade"
+translate([5,-0.4,-.25]){
+    cube([3,1.2,.5]);
+}
